@@ -3,7 +3,7 @@ package org.example;
 public class CarFactory {
     public static Car createCar(String country) {
         Region region = CountryRegionMapper.getRegionByCountry(country);
-
+        //ToDo Need remove
         switch (region) {
             case R1:
                 return new R1Car(country);
