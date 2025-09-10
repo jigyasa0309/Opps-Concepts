@@ -1,4 +1,4 @@
-package org.example;
+package com.regiontax;
 
 public enum Region {
     R1("USA"),
